@@ -1,0 +1,10 @@
+{
+  "name": "void.db",
+  "version": "2.0.3",
+  "description": "It is a JSON based data logging module.",
+  "main": "void-db.js",
+  "keywords": ["database","db","json","jsondata","fs","databases","jsonfolder","dbase","datab"],
+  "author": "Tunar & Claudette",
+  "license": "MIT",
+  "dependencies": {}
+}
