@@ -4,7 +4,7 @@ module.exports = class VOID {
 constructor(filePath){
 this.json = filePath || "./voiddb.json";
 this.db = {};
-if(!fs.existsSync(this.json)){
+if(!fs.existsSync(this.json)){        
 fs.writeFileSync(this.json, "{}", "utf-8");
 } else {
 this.file();
